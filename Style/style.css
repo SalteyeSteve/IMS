@@ -1,0 +1,218 @@
+.smol{
+    margin: auto;
+    width: 30%;
+    margin-top: 3%;
+}
+#chart {
+    height: 440px;
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    margin-top: 3%;
+}
+
+/*Main incident form modal style*/
+#fModal.modal-dialog{
+    width: 1200px;
+    margin: auto;
+}
+tbody > tr > td:hover{
+    cursor: pointer;
+}
+
+/*secret setting*/
+.ainsley:hover{
+    cursor: url(../images/ainsleySmol.png), pointer;
+}
+
+/*navbar collapsed, toggler*/
+#content{
+    padding-right: 7px;
+    padding-left: 7px;
+    /*
+    voor login/useroverzicht/createuser
+    */
+    height:100%;
+}
+
+#toggle{
+    height: 10px;
+    padding: 8px;
+    margin: 0;
+}
+
+/*Orange second navbar with info about incident form*/
+#sticky{
+    padding-top: 70px;
+    padding-left: 10px;
+    background-color: rgba(244, 167, 5, 0.95);
+
+}
+#sticky2{
+    padding-top: 72px;
+    /*background-color: rgba(244, 167, 5, 0.95);*/
+
+}
+.headerIncident{
+    background-color: rgba(244, 167, 5, 0.95);
+}
+
+/*Dropdown navbar settins*/
+.dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
+.set{
+    line-height: inherit;
+}
+#settings{
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.btn.s{
+    font-weight: bolder;
+}
+
+td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+body{
+    overflow-y: scroll;
+    /*
+    voor login/useroverzicht/createuser
+    */  
+    height:100%;
+}
+
+/*
+voor login/useroverzicht/createuser
+*/
+html
+{
+    height:100%;
+}
+
+/*Navbar customization*/
+.navbar-custom {
+    background-color: rgba(88, 191, 180, 0.99);
+}
+.navbar {
+    padding:0;
+}
+.btn-link{
+    color: black;
+}
+
+/*Custom time-based color scheme on incident forms*/
+.btn-warning{
+    color: black;
+    border-color: rgba(242, 122, 14, 0.95);
+    /*background-color: rgba(244, 167, 5, 0.80);*/
+}
+.btn-warning:hover{
+    color: #000000;
+    border-color: rgba(242, 122, 14, 0.95);
+    background-color: rgb(255, 154, 18);
+}
+
+.btn-danger{
+    color: black;
+    border-color: rgba(242, 21, 11, 0.95);
+    background-color: rgba(242, 21, 11, 0.5);
+}
+
+/*Selected button customization*/
+.btn-warning.selected{
+    color: #000000;
+    border-color: rgba(242, 122, 14, 0.95);
+    background-color: rgb(255, 154, 18);
+}
+.btn-warning.selected{
+    color: #000000;
+    border-color: rgba(242, 122, 14, 0.95);
+    background-color: rgb(255, 154, 18);
+}
+
+.btn-outline-info.selected{
+    background-color: rgba(0, 150, 136, 0.6);
+}
+.btn-outline-info{
+    color: black;
+}
+
+/* Incident form  main header*/
+.btn-outline-light{
+    color: #000;
+    border-color: rgba(0, 150, 136, 0.6);
+}
+
+.btn-outline-light:hover{
+    border-color: rgba(0, 150, 136, 0.6);
+}
+
+.btn-outline-info:hover{
+    background-color: rgba(0, 150, 136, 0.6);
+}
+.btn-info:hover{
+    background-color: rgba(0, 150, 136, 0.6);
+}
+
+.btn-light:hover{
+    background-color: rgba(255, 255, 255, 0.59);
+    border-color: black;
+}
+
+/*adds custom color to navbar buttons*/
+.btn-custom  {
+    padding: 10px;
+    margin: 6px;
+    color: #474040;
+    background-color: rgba(27, 178, 189, 0.0);
+    border-color: rgba(0, 150, 136, 0.6);
+}
+.btn-custom-print {
+    padding: 10px;
+    margin: 6px;
+    /*color: #474040;*/
+    background-color: rgba(88, 191, 180, 0.59);
+    border-color: rgba(0, 0, 0, 0.59);
+}
+
+/*Buttons on the right of each incident form*/
+.btn-right{
+    float: right;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right:5px;
+}
+
+/*custom stylesheet incident_formulier*/
+#input_margin_radius_padding{
+    margin-bottom: 2vh;
+    padding:3px;
+}
+#span_margin_radius_padding{
+    margin-bottom: 2vh;
+    padding:3px;
+    background-color:white;
+    border:none;
+}
+#jumbotron_margin{
+    margin-bottom: 2vh;
+}
+.input-group > .input-group-prepend{
+    width:40%;
+}

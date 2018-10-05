@@ -1,0 +1,32 @@
+                        Update on the great merge conflict,
+Hopefully fixed all the buggy commits and merges, ye boi
+
+						Notes after merging,
+
+Iedereen moet zijn eigen config en connection files renamen naar "config.php" en daarin je eigen connectie maken, 
+!!! DIE FILE MOET JE NOOIT PUSHEN !!!
+Wel moet je helemaal bovenaan inculde "functions.php" in je "config.php" file hebben, 
+anders kan je niet gebruik maken van mijn coole zelfgemaakte methods :p
+Als de app niet werkt, moet je naar je eigen pagina navigeren, bv. localhost/IMS/login.php
+OF
+Disable je php gedeelte en/of mijn contentLoader script
+
+						!RICK! 
+
+Je files heb ik in de Rick directory verplaatst, (just in case), 
+probeer wel te kijken of je uit mijn "incident_formulier.php" file kan werken,
+als het goed is moet die het doen.
+
+						!JETSKE!
+
+Je login en logout staan in main directory.
+Dus als je pusht, kan je ze gelijk daarin pushen. 
+Ook heb ik jouw logout een klein beetje aangepast.
+De rest van je files die ik nog niet erin heb gezet 
+zitten in directory Jetske.
+
+						!PIM!
+
+Je kan jouw main file mergen met de file "rapportages.php" en in jou mapje Pim
+kan je ook je scripts doen.
+Alles in jouw eigen directory pushen dus.
